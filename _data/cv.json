@@ -140,7 +140,7 @@
         "C",
         "C++",
         "C#",
-        "Solidity",
+        "Python",
         "Swift"
       ]
     },
@@ -154,10 +154,11 @@
       ]
     },
     {
-      "name": "VR",
+      "name": "AI",
       "level": "IDK",
       "keywords": [
-        "Google Cardboard"
+        "Deep learning",
+        "Tensorflow"
       ]
     }     
   ],
