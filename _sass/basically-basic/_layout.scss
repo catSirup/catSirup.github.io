@@ -25,7 +25,7 @@
 main {
   > .inner {
     padding: 0 0.5rem;
-    margin: 0 auto;
+    //margin: 0 auto; 가운데정렬
 
     @include breakpoint($small) {
       padding-right: 1rem;
