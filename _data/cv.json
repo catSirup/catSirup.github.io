@@ -154,11 +154,12 @@
       ]
     },
     {
-      "name": "AI",
-      "level": "IDK",
+      "name": "Data Science",
+      "level": "Beginner",
       "keywords": [
-        "Deep learning",
-        "Tensorflow"
+        "Deep learning and Machine Learing",
+        "Tensorflow",
+        "Keras"
       ]
     }     
   ],
