@@ -88,7 +88,7 @@ from tensorflow import keras
 model_type = "CNN-static"
 ```
 
-파라미터는 논문에 나온 그대로 적용했다. 확실히 케라스로 작성하니 직관적으로 모델의 모형이 어떻게 되어있는지 코드 상에서 바로 확인이 편하다는 점이 너무 좋았다
+파라미터는 논문에 나온 그대로 적용했습니다. 확실히 케라스로 작성하니 직관적으로 모델의 모형이 어떻게 되어있는지 코드 상에서 바로 확인이 편하다는 점이 너무 좋았습니다.
 
 ```python
 if model_type in ["CNN-non-static", "CNN-static"]:
@@ -136,7 +136,7 @@ model_output = keras.layers.Dense(1, activation="sigmoid")(z)
 
 # 4. 결과
 
-결과는 다음과 같이 나왔으며, 요약하자면 adam을 사용하는 쪽이 좀 더 정확도가 높게 나왔다. 왜 사람들이 대부분 adam을 사용했는 지 알 것 같다.
+결과는 다음과 같이 나왔으며, 요약하자면 adam을 사용하는 쪽이 좀 더 정확도가 높게 나왔습니다. 왜 사람들이 대부분 adam을 사용했는 지 알 것 같습니다.
 
 ### 1-1. CNN-non-static with adam
 
