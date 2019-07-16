@@ -263,7 +263,7 @@ Epoch 10/10
  </pre>
 
 
- ### 2-3. CNN-static with adadelta
+### 2-3. CNN-static with adadelta
 
 <pre>
 Epoch 1/10
