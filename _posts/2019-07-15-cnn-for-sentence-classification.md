@@ -286,6 +286,7 @@ Epoch 9/10
 Epoch 10/10
  - 738s - loss: 0.5368 - acc: 0.7215 - val_loss: 0.5348 - val_acc: 0.7442
  </pre>
+ 
 # 5. 참고
 이 논문을 구현하면서 아래의 문서들을 참조했습니다.
 - [NLP를 위한 CNN (2): Convolutional Neural Network for Sentence Classification](https://reniew.github.io/26/)
