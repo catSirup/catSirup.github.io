@@ -266,7 +266,7 @@ Epoch 10/10
  ### 2-3. CNN-static with adadelta
 
 <pre>
- Epoch 1/10
+Epoch 1/10
  - 700s - loss: 0.6254 - acc: 0.6411 - val_loss: 0.5680 - val_acc: 0.7005
 Epoch 2/10
  - 727s - loss: 0.5834 - acc: 0.6851 - val_loss: 0.5433 - val_acc: 0.7255
