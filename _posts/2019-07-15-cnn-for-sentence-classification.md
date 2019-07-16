@@ -68,7 +68,7 @@ for i in range(len(data)):
         json.dump(datas, make_file, ensure_ascii=False, indent='\t')
 ```
 
-이후 데이터를 불러오고 나서 모든 문장을 `단어의 개수가 가장 많은 문장의 길이` 에 맞춰주는 작업을 진행하고, 각 단어에 인덱싱을 해주면 전처리는 끝입니다.
+이후 데이터를 불러오고 나서 모든 문장을 __단어의 개수가 가장 많은 문장의 길이__ 에 맞춰주는 작업(padding)을 진행하고, 각 단어에 인덱싱을 해주면 전처리는 끝입니다.
 
 # 3. 모델 구현
 프레임워크는 Tensorflow를 사용했으나 전통적인 방식이 아닌, Keras를 사용하는 방법을 선택했습니다. 이 부분이 좀 더 직관적이고 편하기 때문입니다. 구글에서도 [Tensorflow 2.0부터는 본격적으로 keras를 사용하는 것](https://medium.com/tensorflow/whats-coming-in-tensorflow-2-0-d3663832e9b8)을 밀고 있고, [튜토리얼](https://www.tensorflow.org/tutorials/keras?hl=ko)도 Keras를 이용하는 방식으로 알려주니, 시대의 흐름에 몸을 맡기기로 했습니다.
