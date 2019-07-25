@@ -51,6 +51,9 @@ plugins: # previsously gems
 feed:
   path: atom.xml
 
+# Google Traking
+google_analytics: UA-128754184-1
+
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
