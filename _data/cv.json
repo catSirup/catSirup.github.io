@@ -29,11 +29,23 @@
   },
   "work": [
     {
+      "company": "휴마트컴퍼니",
+      "position": "개발팀 팀원",
+      "website": "https://trost.co.kr/",
+      "startDate": "2019.09.16",
+      "endDate": "",
+      "summary": "정보처리 산업기능요원",
+      "highlights": [
+        "실시간 유저 감성 분석 챗봇 개발",
+        "상담 데이터를 통한 유저의 호소문제 분류 및 위험도 스크리닝 모델 개발"
+      ]
+    },
+    {
       "company": "영우씨엔아이",
       "position": "연구개발부 사원",
       "website": "http://www.texclub.com/",
       "startDate": "2018.05.08",
-      "endDate": "",
+      "endDate": "2019.09.15",
       "summary": "정보처리 산업기능요원",
       "highlights": [
         "Unity를 활용해 편직물의 일종인 트리코트와 더블라셀을 설계하고, 설계된 데이터를 바탕으로 3D 시뮬레이션해주는 프로그램 개발",
