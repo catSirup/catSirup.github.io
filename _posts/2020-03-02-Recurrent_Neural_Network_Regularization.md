@@ -47,7 +47,7 @@ RNN의 일종에는 LSTM와 GLU 등이 있었고, LSTM을 먼저 공부하기 �
 - RNN 역학은 이전으로부터 현재 은닉 상태로의 결정론적 전환(deterministic transitions)을 사용해 설명할 수 있음.
 - 이게 결정론적 상태 전환 함수(The deterministic state transition function)
 
-$$\text{RNN: }h^{l-1}_t, h^{l}_{t-1} \rarr  h^{l}_{t}$$
+$$\text{RNN: }h^{l-1}_t, h^{l}_{t-1} \rightarrow h^{l}_{t}$$
 
 - 전통적인 RNNs에서 이 함수는 이렇게 주어진다.
 
@@ -59,7 +59,7 @@ $$h^{l}_{t} = f(T_{n,n}h^{l-1}_t + T_{n,n}h^{l}_{t-1}), \text{where} f \in \{\te
 - LSTM은 메모리셀을 덮어쓰거나 회수하거나 다음 타임 스텝에 유지할지에 대해서 결정할 수 있다.
 - 실험에 사용된 LSTM 아키텍처는 다음 공식을 사용.
 
-$$\text{LSTM} : h^{l-1}_{t}, h^{l}_{t-1}, c^{l}_{t-1} \rarr h^l_t, c^l_t$$
+$$\text{LSTM} : h^{l-1}_{t}, h^{l}_{t-1}, c^{l}_{t-1} \rightarrow h^l_t, c^l_t$$
 
 $$\begin{pmatrix} i \\ f \\ o \\ g \end{pmatrix} = \begin{pmatrix} sigm \\ sigm \\ sigm \\ sigm \end{pmatrix} T_{2n, 4n} \begin{pmatrix} h^{l-1}_t \\ h^l_{t-1} \end{pmatrix}$$
 
