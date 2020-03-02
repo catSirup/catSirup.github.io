@@ -4,7 +4,7 @@ title:  "[논문 뽀개기] Recurrent Neural Network Regularization"
 date:   2020-03-02 14:20:35
 author: devsaka
 categories:
-  - Machine Learning
+  - 논문 뽀개기
 tags:
   - Machine Learning
   - NLP
@@ -46,20 +46,28 @@ RNN의 일종에는 LSTM와 GLU 등이 있었고, LSTM을 먼저 공부하기 �
 ### a. Long-Short Term Memory Units
 - RNN 역학은 이전으로부터 현재 은닉 상태로의 결정론적 전환(deterministic transitions)을 사용해 설명할 수 있음.
 - 이게 결정론적 상태 전환 함수(The deterministic state transition function)
+
 $$\text{RNN: }h^{l-1}_t, h^{l}_{t-1} \rarr  h^{l}_{t}$$
+
 - 전통적인 RNNs에서 이 함수는 이렇게 주어진다.
+
 $$h^{l}_{t} = f(T_{n,n}h^{l-1}_t + T_{n,n}h^{l}_{t-1}), \text{where} f \in \{\text{sigm, tanh}\}$$
+
 - LSTM은 복잡한 역학관계가 있어 많은 수의 타임 스텝에 대한 정보를 쉽게 기억할 수 있다.
 - 'long term' 메모리는 메모리 셀의 벡터 안에 저장된다($C^l_t \in \mathbb{R}^n$).
 - 비록 연결 구조와 활성화 함수에 차이가 많은 LSTM 아키텍처지만, 모든 LSTM 아키텍처는 긴 시간 동안의 정보를 저장하는 명시적 메모리 셀을 가지고 있다.
 - LSTM은 메모리셀을 덮어쓰거나 회수하거나 다음 타임 스텝에 유지할지에 대해서 결정할 수 있다.
 - 실험에 사용된 LSTM 아키텍처는 다음 공식을 사용.
+
 $$\text{LSTM} : h^{l-1}_{t}, h^{l}_{t-1}, c^{l}_{t-1} \rarr h^l_t, c^l_t$$
+
 $$\begin{pmatrix} i \\ f \\ o \\ g \end{pmatrix} = \begin{pmatrix} sigm \\ sigm \\ sigm \\ sigm \end{pmatrix} T_{2n, 4n} \begin{pmatrix} h^{l-1}_t \\ h^l_{t-1} \end{pmatrix}$$
+
 $$c^l_t = f \bigodot c^l_{t-1} + i \bigodot g$$
+
 $$h^l_t = o \bigodot tanh(c^l_t)$$
 
-![figure1]({{ site.url }}{{ site.baseurl }}/assets/images/rnn_regularization/figure1.png){: .align-center}
+  ![figure1]({{ site.url }}{{ site.baseurl }}/assets/images/rnn_regularization/figure1.png){: .align-center}
 - 이 공식에서, 시그모이드(sigm)와 tanh은 원소별(element-wise) 계산 적용이다. Figure 1은 LSTM 공식을 보여준다.
 
 ### b. Regularization With Dropout
@@ -67,11 +75,14 @@ $$h^l_t = o \bigodot tanh(c^l_t)$$
 ![figure2]({{ site.url }}{{ site.baseurl }}/assets/images/rnn_regularization/figure2.png){: .align-center}
 - 핵심 아이디어는 드롭아웃 연산을 비순환 연결에만 적용하는 것
 - 여기서 D는 인수의 임의 부분 집합을 0으로 설정하는 드롭아웃 연산자.
+
 $$\begin{pmatrix} i \\ f \\ o \\ g \end{pmatrix} = \begin{pmatrix} sigm \\ sigm \\ sigm \\ sigm \end{pmatrix} T_{2n, 4n} \begin{pmatrix} D(h^{l-1}_t) \\ h^l_{t-1} \end{pmatrix}$$
+
 $$c^l_t = f \bigodot c^l_{t-1} + i \bigodot g$$
+
 $$h^l_t = o \bigodot tanh(c^l_t)$$
 
-- 드롭아웃 연산자는 유닛이 운반하는 정보를 변형(corrupt)시키며, 그들의 중간 연산을 더 강력하게(robustly) 수행하도록 한다(forcing them to perform) -> force라는 단어를 사용한 것으로 보아 강제로 하게하는 느낌이 있다.
+- 드롭아웃 연산자는 유닛이 운반하는 정보를 변형(corrupt)시키며, 그들의 중간 연산을 더 강력하게(robustly) 수행하도록 한다(forcing them to perform) -> force라는 단어를 사용한 것으로 보아 강제로 하게하는 느낌인 것 같다.
 ![figure3]({{ site.url }}{{ site.baseurl }}/assets/images/rnn_regularization/figure3.png){: .align-center}
 - 동시에, 유닛들의 모든 정보가 지워지는 것을 원하지 않는다. -> 유닛들은 과거의 많은 타임 스텝에서 발생된 이벤트를 기억하는 것이 특히 중요하다. figure 3에서는 어떻게 정보가 타임스텝 t-2에서 발생한 사건에서 우리의 드롭아웃 구현 내에 있는 시간 스탭 t+2의 예측으로 흐를 수 있는지를 보여준다.
 - 정보가 드롭아웃 연산에 의해 정확하게 L+1 시간에 변형된다는 것을 볼 수 있고, 이 숫자는 정보가 횡단한 타임스텝의 수와 독립적이다.
