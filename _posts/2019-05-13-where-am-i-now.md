@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "[나, 지금, 어디]2019년 5월, 나는 지금 어디까지 왔나"
+title:  "[나, 지금, 어디] 2019년 5월, 나는 지금 어디까지 왔나"
 date:   2019-05-13 19:50:27
 author: devsaka
 categories:
