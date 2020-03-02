@@ -15,7 +15,7 @@ cover:
 원래 분기별로 쓰려고 했는데 이번 겨울은 유난히 바빴다. 헬스, 작곡, 공부, 회사, 메이플.. 할 게 너무 많았다. 써야지 써야지 하다가 이제서야 쓴다.
 
 # 작곡
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/20200302/1.HEIC){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/20200302/1.JPG){: .align-center}
 
 [내 사운드 클라우드](https://soundcloud.com/3xaa7hrewnrv)를 만들어 두 곡 정도 업로드 했다. 작년 9월부터 시작했고 지금 세 번째 곡을 작곡 중이다. 가사는 써보고 싶었는데 도저히 안되겠더라.
 
