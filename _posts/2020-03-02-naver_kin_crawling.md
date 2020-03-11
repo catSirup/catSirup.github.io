@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "네이버 지식인 크롤링하기"
+title:  "[Python] 네이버 지식인 크롤링하기"
 date:   2020-03-02 15:40:49
 author: devsaka
 categories:

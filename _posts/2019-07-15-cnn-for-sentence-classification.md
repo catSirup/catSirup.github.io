@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "Convolutional neural network for sentence classification, 문장 분류를 위한 CNN"
+title:  "[논문 뽀개기] Convolutional neural network for sentence classification, 문장 분류를 위한 CNN"
 date:   2019-07-15 15:50:27
 author: devsaka
-categories: develop
+categories: AI
 tags:
   - 논문구현
   - AI
