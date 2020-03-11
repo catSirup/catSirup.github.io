@@ -4,7 +4,7 @@ title:  "네이버 지식인 크롤링하기"
 date:   2020-03-02 15:40:49
 author: devsaka
 categories:
-  - 개발
+  - develop
 tags:
   - text mining
   - crawling

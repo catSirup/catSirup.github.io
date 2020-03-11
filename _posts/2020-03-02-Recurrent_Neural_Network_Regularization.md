@@ -4,7 +4,7 @@ title:  "[논문 뽀개기] Recurrent Neural Network Regularization"
 date:   2020-03-02 14:20:35
 author: devsaka
 categories:
-  - 논문 뽀개기
+  - paper
 tags:
   - Machine Learning
   - NLP

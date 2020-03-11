@@ -4,7 +4,7 @@ comments: true
 title:  "[나, 지금, 어디] 2020년 3월, 나는 지금 어디까지 왔나"
 date:   2020-03-02 15:30:27
 author: devsaka
-categories:
+categories: diary
 tags:
   - 계획
   - 회고
