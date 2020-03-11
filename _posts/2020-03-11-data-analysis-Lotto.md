@@ -148,6 +148,7 @@ for i in range(10):
         get_lotto_number_by_frequency(frequency_high=False)
 ```
 
+# 제발 신이시어..
 그렇게 총 20개의 번호를 뽑았고, 이미 번호를 본 순간 망했다는 것을 직감했지만 인생사 모르니 일단 찍어보자 하는 마음으로, 난생 처음 수동을 해봤다.
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/lotto/1.png){: .align-center}
 ```
@@ -163,5 +164,5 @@ for i in range(10):
 - 확률이 제일 낮은 모델에 10개나 투자했다. 이는 기회비용적으로도 실패였다.
 - 단순히 번호별 빈도수로만 계산했다는 것이 문제였다. 
 
-
-902회 로또 결과는 후기 2편으로 함께 작성하겠다.
+# 다음 이야기
+좀 더 개선한 로또번호 생성기에 대한 도전과 902회 로또 결과는 후기 2편으로 함께 작성하겠다.
