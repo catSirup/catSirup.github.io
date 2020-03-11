@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "[Python] 선생님 저도 로또에 당첨되어보고 싶어요 (로또번호 생성기 개발 후기 1)"
-date:   2020-03-12 00:17:19
+date:   2020-03-11 23:34:19
 author: devsaka
 categories: develop
 tags:
