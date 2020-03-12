@@ -8,11 +8,11 @@
     "website": "",
     "summary": "",
     "location": {
-      "address": "123 Sesame Street",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "",
       "countryCode": "Korea",
-      "region": "California"
+      "region": "Seoul"
     },
     "profiles": [
       {
@@ -83,7 +83,7 @@
     {
       "organization": "코딩클럽 Coding Club",
       "position": "4기 선생님",
-      "website": "http://codingclubs.org/?fbclid=IwAR2qv1wRpRnOcyMkGwg84zOWMaNZKmJqop3Kj1XYzEErCFG9UBE2yZgdJEY",
+      "website": "https://www.facebook.com/groups/CodingClubKorea/",
       "startDate": "2017.03",
       "endDate": "2017.06",
       "summary": "초중등 학생들에게 스크래치와 앱인벤터 교육 진행",
