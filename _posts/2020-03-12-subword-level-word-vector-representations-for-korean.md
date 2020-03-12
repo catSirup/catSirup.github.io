@@ -75,11 +75,11 @@ $$w_t : \frac{1}{T}\sum_{t=1}^T\sum_{-c \le j \le c, j\ne0}^{2c}\log p(w_{t+j} |
 
 $$\text{binary logistic loss}: \log (1 + e^{-s(w_{t+j}, w_t)}) + \sum_{n=1}^{n_c}\log (1+e^{s(w_{t+j, w_n})})$$
 
-여기서 ${n_c}$는 음의 샘플들의 개수이고, ${s(w_{t+j}, w_t)}$는 scoring function이다. 이 함수는 대상 워드 벡터 ${w_t}$의 입력과 컨텍스트 워드 벡터 ${w_{t+j}}$ 의 출력 사이의 점곱 연산을 계산한다. Skip-Gram에서 단어 $w_t$ 의 입력이 훈련 corpus에 고유하게 할당되지만, Subword information Skip-Gram의 벡터는 단어에서 추출한 n-gram 집합의 평균 벡터다. 형식적으로 score function ${s(w_{t+j}, w_t)}$ 는 다음과 같다.
+여기서 ${n_c}$ 는 음의 샘플들의 개수이고, ${s(w_{t+j}, w_t)}$ 는 scoring function이다. 이 함수는 대상 워드 벡터 ${w_t}$ 의 입력과 컨텍스트 워드 벡터 ${w_{t+j}}$ 의 출력 사이의 점곱 연산을 계산한다. Skip-Gram에서 단어 $w_t$ 의 입력이 훈련 corpus에 고유하게 할당되지만, Subword information Skip-Gram의 벡터는 단어에서 추출한 n-gram 집합의 평균 벡터다. 형식적으로 score function ${s(w_{t+j}, w_t)}$ 는 다음과 같다.
 
 $$\frac{1}{\left\vert G_t \right\vert}\sum_{g_t \in G_t}^{\left\vert G_t  \right\vert}\mathbf{z}_{g_t}^T \mathbf{v}_{t+j}$$
 
-여기서 ${w_t}$의 분해된 n-gram 집합은 ${G_t}$이고 이들의 요소들은 ${g_t}$, ${\left\vert G_t \right\vert}$ 는 ${G_t}$ 의 요소 전체 개수이다. 일반적으로 3 ≤ n ≤ 6에 대한 n-gram은 단어의 하위 수준이나 구성성에 관계 없이 한 단어에서 추출된다.
+여기서 ${w_t}$의 분해된 n-gram 집합은 ${G_t}$ 이고 이들의 요소들은 ${g_t}$, ${\left\vert G_t \right\vert}$ 는 ${G_t}$ 의 요소 전체 개수이다. 일반적으로 3 ≤ n ≤ 6에 대한 n-gram은 단어의 하위 수준이나 구성성에 관계 없이 한 단어에서 추출된다.
 
 마찬가지로, 우리는 추출된 두 종류의 n-gram을 사용하여 한국어의 벡터 표현을 구성한다. 우리는 jamo-level n-gram의 합, character-level n-gram의 합을 계산하고, 벡터들의 평균을 계산한다. $w_t$ 의 character_level n-gram를 ${G_{ct}}$ 로, inter-character jamo-level n-gram을 ${G_{jt}}$ 로 나타내고, 다음과 같이 score function ${s(w_{t+j}, w_t)}$ 을 얻는다.
 
