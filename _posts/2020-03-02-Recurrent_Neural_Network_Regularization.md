@@ -10,7 +10,7 @@ tags:
   - NLP
   - RNN
   - LSTM
-image:
+image: https://picjumbo.com/wp-content/uploads/officeconference-room-workspace-2210x1473.jpg
 comments: true
 ---
 
