@@ -9,7 +9,7 @@ tags:
   - Machine Learning
   - NLP
   - Embedding
-cover: "/assets/images/subword-level-word-vector/cover.jpg"
+cover: ({{ site.url }}{{ site.baseurl }}/assets/images/subword-level-word-vector/cover.jpg)
 ---
 
 cover photo: https://pets.webmd.com/cats/cat-vaccines
