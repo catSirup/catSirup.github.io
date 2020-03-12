@@ -133,7 +133,8 @@
       "name": "Server",
       "level": "Beginner",
       "keywords": [
-        "C# Socket"
+        "C# Socket",
+        "Flask"
       ]
     },
     {
@@ -157,21 +158,13 @@
       ]
     },
     {
-      "name": "Firebase",
-      "level": "IDK",
-      "keywords": [
-        "Push Notification",
-        "Analytics",
-        "Deep Link"
-      ]
-    },
-    {
       "name": "Data Science",
       "level": "Beginner",
       "keywords": [
         "Deep learning and Machine Learing",
         "Tensorflow",
-        "Keras"
+        "Keras",
+        "NLP"
       ]
     }     
   ],
