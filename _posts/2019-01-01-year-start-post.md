@@ -7,7 +7,7 @@ author: devsaka
 categories:
 tags:
   - 계획
-cover:
+image: https://images.unsplash.com/photo-1542319150-fb62a2e8c476?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80
 ---
 
 ## 사람의 욕심은 밑도 끝도 없다
