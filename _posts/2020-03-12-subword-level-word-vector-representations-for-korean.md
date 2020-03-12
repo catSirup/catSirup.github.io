@@ -85,7 +85,7 @@ $$\frac{1}{\left\vert G_t \right\vert}\sum_{g_t \in G_t}^{\left\vert G_t  \right
 
 $$\frac{1}{N}(\sum_{g_{ct} \in G_{ct}}^{\left\vert G_{ct} \right\vert} \mathbf{z}_{g_{ct}}^T \mathbf{v}_{t+j} + \sum_{g_{jt} \in G_{jt}}^{\left\vert G_{jt} \right\vert}\mathbf{z}_{g_{jt}}^T \mathbf{v}_{t+j}) $$
 
-여기서 ${{z}_{g_{jt}}}$ 는 jamo-level n-gram ${g_{jt}}$ 의 벡터 표현이고, ${\mathbf{z}_{g_{ct}}}$ 는 character-level의 n-gram ${g_{ct}}$ 의 벡터 표현이다. $N$ 은 character-level n-gram과 inter-charater jamo-level n-gram의 합인 ${\left\vert G_{ct} \right\vert + \left\vert G_{jt} \right\vert}$ 이다.
+여기서 $ {{z}_{g_{jt}}} $ 는 jamo-level n-gram $ {g_{jt}} $ 의 벡터 표현이고, $ {\mathbf{z}_{g_{ct}}} $ 는 character-level의 n-gram $ {g_{ct}} $ 의 벡터 표현이다. $ {N} $ 은 character-level n-gram과 inter-charater jamo-level n-gram의 합인 ${\left\vert G_{ct} \right\vert + \left\vert G_{jt} \right\vert}$ 이다.
 
 
 # 실험
