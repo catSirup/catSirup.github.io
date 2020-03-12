@@ -187,7 +187,7 @@ $$1 - \cos(u_a + u_b - u_c, u_d)$$
 
 반면에 word-level Skip-Gram은 F1-score에서 우리 모델과 비교할만하다는 것을 보여주며, 심지어 다른 비교 모델보다 더 높다. 데이터셋이 영화나 배우 이름 등의 고유명사를 상당량 포함하고 있으며, 그런 단어들의 의미적 표현은 단어 유추 과제에서 볼 수 있듯이 word-level 표현에 의해 더 잘 포착되기 때문이다.
 
-**Effect of Size $n$ in both $n$-grams.** Table. 4는 inter-character jamo-level n-gram과 character-level n-gram의 각 숫자에 대한 단어 유사성 작업의 성능을 보여준다. $n$=5,6개의 n-gram을 포함하여 jamo-level $n$의 경우, bigram을 제외하면 더 높은 성능이 나타난다. 반면, 단어를 분해하는 동안 모든 문자 n-gram을 포함한 문자 수준 n-gram의 n은 성능 향상을 보장하지 않는다. 한국어의 대부분은 6자(전체 corpus의 97.2%) 이하여서, character n-gram에서 n의 최대값 6이 단어 벡터를 학습하기 충분히 큰 것 같다. 또한 4자 이하의 단어는 전체 말뭉치의 82.6%를 차지하므로 n=4 정도도 character n-gram을 학습하기에 충분하다.
+**Effect of Size ${n}$ in both ${n}$-grams.** Table. 4는 inter-character jamo-level n-gram과 character-level n-gram의 각 숫자에 대한 단어 유사성 작업의 성능을 보여준다. $n$=5,6개의 n-gram을 포함하여 jamo-level $n$의 경우, bigram을 제외하면 더 높은 성능이 나타난다. 반면, 단어를 분해하는 동안 모든 문자 n-gram을 포함한 문자 수준 n-gram의 n은 성능 향상을 보장하지 않는다. 한국어의 대부분은 6자(전체 corpus의 97.2%) 이하여서, character n-gram에서 n의 최대값 6이 단어 벡터를 학습하기 충분히 큰 것 같다. 또한 4자 이하의 단어는 전체 말뭉치의 82.6%를 차지하므로 n=4 정도도 character n-gram을 학습하기에 충분하다.
 
 # 결론 및 논의
 이 논문에서, 우리는 한국어 문자를 빈 종성 기호가 있는 자모의 순서로 분해한 다음, 그 순서에서 character level n-gram과 intercharacter jamo-level n-gram으로 추출하는 방법을 제시한다. 두 n-gram 모두 n-gram의 평균을 계산하여 단어 벡터 표현을 구성하며, 이러한 벡터들은 subword-level 정보 Skip-Gram에 의해 훈련된다. 벡터의 성능을 평가하기 앞서, 우리는 한국어를 위한 단어 유사성 밑 단어 유추에 대한 테스트 세트를 개발했다.
