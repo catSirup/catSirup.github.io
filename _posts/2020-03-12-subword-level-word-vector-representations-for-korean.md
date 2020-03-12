@@ -12,6 +12,9 @@ tags:
 cover: https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg
 ---
 
+cover photo: https://pets.webmd.com/cats/cat-vaccines
+
+
 # 읽기 전에
 
 이 포스트는 박성준 님의 [Subword-level Word Vector Representations for Korean](https://www.aclweb.org/anthology/P18-1226/) 논문을 읽고, 한국어 번역 및 요약, 제 생각을 첨언한 글입니다.
