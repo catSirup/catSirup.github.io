@@ -79,7 +79,7 @@ $$\text{binary logistic loss}: \log (1 + e^{-s(w_{t+j}, w_t)}) + \sum_{n=1}^{n_c
 
 $$\frac{1}{\left\vert G_t \right\vert}\sum_{g_t \in G_t}^{\left\vert G_t  \right\vert}\mathbf{z}_{g_t}^T \mathbf{v}_{t+j}$$
 
-여기서 $w_t$의 분해된 n-gram 집합은 $G_t$이고 이들의 요소들은 ${g_t}$, ${\left\vert G_t \right\vert}$ 는 ${G_t}$ 의 요소 전체 개수이다. 일반적으로 3 ≤ n ≤ 6에 대한 n-gram은 단어의 하위 수준이나 구성성에 관계 없이 한 단어에서 추출된다.
+여기서 ${w_t}$의 분해된 n-gram 집합은 ${G_t}$이고 이들의 요소들은 ${g_t}$, ${\left\vert G_t \right\vert}$ 는 ${G_t}$ 의 요소 전체 개수이다. 일반적으로 3 ≤ n ≤ 6에 대한 n-gram은 단어의 하위 수준이나 구성성에 관계 없이 한 단어에서 추출된다.
 
 마찬가지로, 우리는 추출된 두 종류의 n-gram을 사용하여 한국어의 벡터 표현을 구성한다. 우리는 jamo-level n-gram의 합, character-level n-gram의 합을 계산하고, 벡터들의 평균을 계산한다. $w_t$ 의 character_level n-gram를 ${G_{ct}}$ 로, inter-character jamo-level n-gram을 ${G_{jt}}$ 로 나타내고, 다음과 같이 score function ${s(w_{t+j}, w_t)}$ 을 얻는다.
 
