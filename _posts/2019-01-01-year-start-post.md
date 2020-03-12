@@ -4,7 +4,7 @@ comments: true
 title:  "[2019년 계획서] 하고 싶은게 많아서 얼마나 이루나 확인해보기 위해 작성하는 계획서"
 date:   2019-01-01 14:31:30
 author: devsaka
-categories:
+categories: diary
 tags:
   - 계획
 image: https://images.unsplash.com/photo-1542319150-fb62a2e8c476?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80
