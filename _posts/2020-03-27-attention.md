@@ -9,8 +9,11 @@ tags:
   - Machine Learning
   - NLP
   - Embedding
-image: https://www.motorgraph.com/news/photo/201606/9653_44184_5522.jpg
+image: https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Fnotepet%2F87b1fee0824646bf80167299b3a285e6.jpg
 ---
+```
+Attention~
+```
 
 # 목차
 처음으로 이 포스트에 목차라는 걸 넣어본다. 그만큼 쓸 내용이 많다는 것이다.
