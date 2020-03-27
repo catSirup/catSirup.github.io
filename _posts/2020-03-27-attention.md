@@ -92,9 +92,11 @@ V = Values: 모든 시점의 인코더 셀의 은닉 상태들
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo5.png){: .align-center}
 
 어텐션 스코어 함수를 정의해보면 다음과 같다
+
 $$score(s_{t} \cdot h_{i}) = s^{T}_{t}h_{i}$$
 
-$s_t$와 인코더의 모든 은닉 상태의 어텐션 스코어의 모음값을 $e^{t}$라고 정의한다.
+$s_t$ 와 인코더의 모든 은닉 상태의 어텐션 스코어의 모음값을 $e^{t}$라고 정의한다.
+
 $$e^t = [s^{T}_{t}h_{i}, \cdots, s^{T}_{t}h_{N}]$$
 
 #### 2) 소프트맥스(softmax) 함수를 통해 어텐션 분포(Attention Distribution)를 구한다.
@@ -123,5 +125,5 @@ $$a_t = \sum^{N}_{i=1}a^{t}_{i}h_{i}$$
 #### 4) 어텐션 값과 디코더의 t 시점의 은닉 상태를 연결한다(Concatenate)
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo8.png){: .align-center}
 
-앞서 구한 어텐션 값 $a_t$ 에 $s_t$ 를 결합(Concatenate)해 하나의 벡터로 만드는 작업을 수행한다. 이를 $v_t$라고 정의하고, 이 값을 $\hat{y}$ 예측의 연산의 입력으로 사용한다.
+앞서 구한 어텐션 값 $a_t$ 에 $s_t$ 를 결합(Concatenate)해 하나의 벡터로 만드는 작업을 수행한다. 이를 $v_t$ 라고 정의하고, 이 값을 $\hat{y}$ 예측의 연산의 입력으로 사용한다.
 
