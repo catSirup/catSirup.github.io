@@ -62,14 +62,17 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
 
 트랜스포머의 구조는 다음과 같이 되어있다. RNN 없이 어텐션만을 사용해 인코더-디코더 구조를 만들었다.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo2.jpg){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo2.png){: .align-center}
 
 ### 인코더와 디코더
 #### 인코더
 - 인코더는 총 여섯 개의 층으로 쌓여져 있다
 - 각 층은 두 개의 sub-layer를 가지고 있다. 첫 번째는 **Multi-Head Attetion** 층이고, 두 번째는 점별 완전 연결(point wise fully connected) **Feed Forward** 로 연결되어 있다.
+
 - 두 개의 sub-layer에 각각 잔차 연결(residual connection)을 사용하며, 레이어 정규화(normalization)을 수행한다.
+
 - 즉, 각각의 sub-layer의 output은 $\text{LayerNorm}(x + \text{Sublayer}(x))$이고, $\text{Sublayer}(x)$는 sub-layer에서 실행되는 함수다.
+
 - 잔차 연결을 용이하게 하기 위해 모델의 모든 sub-layer 및 임베딩 레이어는 512개의 차원으로 output을 생성한다.  
 
 #### 디코더
@@ -82,7 +85,7 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
 [Attention, 어텐션](https://catsirup.github.io/ai/2020/03/27/attention.html) 포스트에 기술했듯, 특정 정보에 좀 더 주의를 기울이는 것이다. 또한 어텐션에는 다양한 계산 방법이 존재하는데, Transformer에서는 Scaled Dot-Product Attention(스케일드 닷-프로덕트 어텐션)을 사용한다.
 
 #### 스케일드 닷-프로덕트 어텐션
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo9.jpg){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo9.png){: .align-center}
 
 - 입력값은 Query와 차원 $d_k$의 Key, 그리고 차원의 값 $d_v$를 고려한다. Query와 모든 Key에 대해 내적(dot product) 계산을 하고, 각각 $\sqrt{d_k}$로 나눈 다음, 값에 대한 가중치를 구하기 위해 소프트맥스 함수를 적용한다. 
 
@@ -103,9 +106,12 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
 - 즉 동일한 Q, K, V에 대해 각각 다른 parameter matrix인 W를 곱해주는 것.
 
   $$\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \cdots, \text{head}_h)W^o \\
-  \text{where} \text{head}_i = \text{Attention}(QW^Q_i, KW^K_i, VW^V_i)$$
+  \text{where } \text{head}_i = \text{Attention}(QW^Q_i, KW^K_i, VW^V_i)$$
 
-- W는 각각 $W_i^Q \in \mathbb{R}^{d_{model} \mathsf{x} d_k}, W_i^K \in \mathbb{R}^{d_{model} \mathsf{x} d_k}, W_i^V \in \mathbb{R}^{d_{model} \mathsf{x} d_v}, W_i^O \in \mathbb{R}^{hd_ v\mathsf{x} d_{model}}$ 다.
+- W는 각각 
+  
+  $$W_i^Q \in \mathbb{R}^{d_{model} \mathsf{x} d_k} \\ W_i^K \in \mathbb{R}^{d_{model} \mathsf{x} d_k} \\ W_i^V \in \mathbb{R}^{d_{model} \mathsf{x} d_v} \\ W_i^O \in \mathbb{R}^{hd_ v\mathsf{x} d_{model}}$$
+
 
 - 순서대로 query, key, value, output에 대한 parameter matrix입니다
 
