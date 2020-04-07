@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Attention, 어텐션"
+title:  "[Machine Learning] Attention, 어텐션"
 date:   2020-03-27 17:14:23
 author: devsaka
 categories: AI
