@@ -101,7 +101,7 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
 #### 멀티 헤드 어텐션
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/transformer/photo10.png){: .align-center}
 
-- $d_{model}$-dimensional Key, Value, Query을 가지고 단일 어텐션 함수를 수행하는 것 대신에, 각각 {d_k}, {d_k}, {d_v} 크기에 대해 서로 다른 학습된 선형 투영(linear projection)을 사용해 h번 수행하는 것이 좋다고 한다.
+- $d_{model}$-dimensional Key, Value, Query을 가지고 단일 어텐션 함수를 수행하는 것 대신에, 각각 ${d_k}$, ${d_k}$, ${d_v}$ 크기에 대해 서로 다른 학습된 선형 투영(linear projection)을 사용해 h번 수행하는 것이 좋다고 한다.
 
 - 즉 동일한 Q, K, V에 대해 각각 다른 parameter matrix인 W를 곱해주는 것.
 
