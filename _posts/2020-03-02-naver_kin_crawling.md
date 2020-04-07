@@ -14,6 +14,11 @@ image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hand-held-bb
 comments: true
 ---
 
+```
+본격 텍스트 마이닝
+```
+
+
 # 데이터가 필요했다.
 개인적으로 연구에 사용할 데이터가 필요했다. 트위터 같은 곳에서 구해볼까 했는데 데이터 퀄리티가 너무 떨어졌다. 대부분 사진 위주에 해시태그만 있다보니 텍스트 데이터가 너무 부족한 것도 큰 이유였다.
 
