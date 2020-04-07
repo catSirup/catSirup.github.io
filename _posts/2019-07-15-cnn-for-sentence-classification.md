@@ -12,6 +12,11 @@ tags:
 cover:
 ---
 
+```
+CNN도 잘쓰면 텍스트 분류에 좋다!
+```
+
+
 
 # 0. 시작하면서 
 NLP에서 많은 주목을 받았던 Yoon Kim 님의 ["Convolutional Neural Networks for Sentence Classification"](https://www.aclweb.org/anthology/D14-1181)의 논문을 구현해보았습니다. 

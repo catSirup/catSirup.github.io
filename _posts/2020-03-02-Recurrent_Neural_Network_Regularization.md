@@ -14,6 +14,10 @@ image: https://picjumbo.com/wp-content/uploads/officeconference-room-workspace-2
 comments: true
 ---
 
+```
+드롭아웃 짱짱맨!
+```
+
 ## 사족
 NLP 관련 논문을 하나씩 차근차근 보기 위해서 BERT를 내에 사용되는 Trasfomer를 공부해야하나 하다가 그럼 그 안에 있는 중요한 이론인 Attention을 봐야겠군 하고 Attention을 켜니 Seq2Seq가 맞이하고 있었고, 이 Seq2Seq를 이해하기 위해서는 RNN을 알아야하기 때문에 RNN 논문부터 파헤치기로 했다.
 
