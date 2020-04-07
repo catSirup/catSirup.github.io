@@ -11,6 +11,11 @@ tags:
 image: https://images.thewest.com.au/publication/B881329020Z/1568892161788_GI42DQLRC.2-2.JPG?imwidth=810&impolicy=wan_v3
 ---
 
+```
+1등 당첨은 도대체 어떻게 되는거지
+```
+
+
 cover photo: https://thewest.com.au/news/lotto/three-aussies-win-a-share-of-record-breaking-150-million-lotto-jackpot-ng-b881329020z
 
 # 로또 당첨되고 싶다.
