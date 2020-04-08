@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "[논문 뽀개기] Transformer is All You Need"
+title:  "[논문 뽀개기] Attention is All You Need"
 date:   2020-04-07 12:30:23
 author: devsaka
 categories: AI
