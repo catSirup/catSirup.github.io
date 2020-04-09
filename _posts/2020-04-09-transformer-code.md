@@ -128,7 +128,7 @@ plt.show()
 
 이제 Positional Encoding값을 가지고 Position Embedding 값을 구한다.
 
-1. 위해서 구해진 position encodong 값을 이용해 position emgedding을 생성합니다. 학습되는 값이 아니므로 freeze옵션을 True로 설정 합니다.
+1. 위에서 구해진 position encodong 값을 이용해 position emgedding을 생성합니다. 학습되는 값이 아니므로 freeze옵션을 True로 설정 합니다.
 2. 입력 inputs과 동일한 크기를 갖는 positions값을 구합니다.
 3. input값 중 pad(0)값을 찾습니다.
 4. positions값중 pad부분은 0으로 변경 합니다.
