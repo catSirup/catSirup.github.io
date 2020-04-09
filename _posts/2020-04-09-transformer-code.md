@@ -475,6 +475,8 @@ self.sentences.append([vocab.piece_to_id(p) for p in data["doc"]][:max_len])
 criterion = torch.nn.BCEWithLogitsLoss()
 ```
 
+왜 BCEWithLogitsLoss()를 써야하는지 궁금하다면 [이 블로그](https://wordbe.tistory.com/entry/ML-Cross-entropyCategorical-Binary의-이해)를 참조하면 도움이 된다.
+
 ### 정확도 체크
 
 정확도 또한 계산하는 방식이 달라져야 한다.
