@@ -10,7 +10,7 @@ tags:
   - NLP
   - Python
   - Pytorch
-image: https://t1.daumcdn.net/cfile/tistory/2424B63853CCC5833D
+image: https://c.wallhere.com/photos/7e/cc/2880x1800_px_movies_optimus_prime_Transformers_Transformers_Age_Of_Extinction-661136.jpg!d
 ---
 
 ```

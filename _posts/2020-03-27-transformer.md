@@ -9,7 +9,7 @@ tags:
   - Machine Learning
   - NLP
   - Embedding
-image: https://www.motorgraph.com/news/photo/201606/9653_44184_5522.jpg
+image: https://i.pinimg.com/originals/93/62/98/936298bb66f72ec5b98824f4d2007b7f.jpg
 ---
 
 ```
