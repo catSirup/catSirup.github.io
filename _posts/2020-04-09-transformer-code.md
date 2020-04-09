@@ -328,7 +328,7 @@ context, attn_prob = scaled_dot_attn(q_s, k_s, v_s, attn_mask)
 
 ### Concat
 
-위 결과물을 하나로 묶어주는 Concat 작업을 해줍니다.
+위 결과물을 하나로 묶어주는 Concat 작업을 해준다.
 
 ```python
 context = context.transpose(1, 2).contiguous().view(batch_size, -1, n_head * d_head)
@@ -337,7 +337,7 @@ print(context.size())
 
 ### Linear
 
-마지막 Linear 작업입니다.
+마지막 Linear 작업이다.
 
 ```python
 linear = nn.Linear(n_head * d_head, d_hidn)
@@ -372,7 +372,7 @@ n_head = 2
 ```
 
 ### 멀티 헤드 어텐션
-멀티 헤드 어텐션과 동일하므로 위에서 선언한 멀티 헤드 어텐션을 바로 호출합니다.
+멀티 헤드 어텐션과 동일하므로 위에서 선언한 멀티 헤드 어텐션을 바로 호출한다.
 
 ```python
 attention = MultiHeadAttention(d_hidn, n_head, d_head)
