@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "[Python, Pytorch] Attention is All You Need 코드 구현"
-date:   2020-04-07 12:30:23
+date:   2020-04-09 14:55:23
 author: devsaka
 categories: AI
 tags:
