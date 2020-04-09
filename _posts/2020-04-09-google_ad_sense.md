@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "[기타] 한달 간 GitHub 블로그에 Google Ad Sense 붙인 결과"
+title:  "[기타] 한 달 간 GitHub 블로그에 Google Ad Sense 붙인 결과"
 date:   2020-04-09 15:40:52
 author: devsaka
 categories: AI
