@@ -93,7 +93,7 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
 
 - 동시에 쿼리 집합에 대해 어텐션 함수를 계산하고, 매트릭스 Q로 묶는다. Key와 Value들 또한 각각 K, V 매트릭스로 묶는다. 이를 다음과 같이 쓸 수 있다.
 
-  $$\text{Attention}(Q, K, V = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$$
+  $$\text{Attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$$
 
 - 가장 많이 사용되는 두 가지 어텐션 함수는 addictive attention과 dot-product attention인데,  스케일드 닷-프로덕트 어텐션은스케일링 요소인 $\frac{1}{\sqrt{d_k}}$ 가 있다는 것만 제외하면  Dot-Product Attention과 동일하다.
 
