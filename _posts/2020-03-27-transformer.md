@@ -115,7 +115,7 @@ p.s. 이 글은 논문의 순서를 따라서 작성했다. 이 글 이후에는
   $$W_i^Q \in \mathbb{R}^{d_{model} \mathsf{x} d_k} \\ W_i^K \in \mathbb{R}^{d_{model} \mathsf{x} d_k} \\ W_i^V \in \mathbb{R}^{d_{model} \mathsf{x} d_v} \\ W_i^O \in \mathbb{R}^{hd_ v\mathsf{x} d_{model}}$$
 
 
-- 순서대로 query, key, value, output에 대한 parameter matrix입니다
+- 순서대로 query, key, value, output에 대한 parameter matrix이다.
 
 - 여기서 8개의 head 또는 레이어를 병렬적으로 사용한다. 각각에 대해 $d_k = d_v = d_{model}/h = 64$를 사용한다. 각 head별로 차원 감소로 인해, 전체 계산 비용은 완전 차원을 가진 단일 어텐션과 유사하다.
 
