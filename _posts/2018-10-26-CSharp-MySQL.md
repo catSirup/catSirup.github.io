@@ -14,6 +14,11 @@ tags:
 cover:
 ---
 
+```
+C# 에서 DB 읽어오는 법 with MySQL
+```
+
+
 C# Native에서 MySQL을 사용하는 것은 Postgresql보다 세팅도 간단하고 훨씬 편했다. 
 
 

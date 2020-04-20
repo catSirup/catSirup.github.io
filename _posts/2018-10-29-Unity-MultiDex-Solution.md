@@ -14,6 +14,11 @@ image:
 comments: true
 ---
 
+```
+매우 귀찮은 작업을 이제 빌드마다 하셔야 합니다.
+```
+
+
 ## 에러 내용
 유니티(5.x버전)에서 안드로이드 빌드를 하다가 다음과 같은 에러가 발생했다.<br><br>
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Multidex/m1.PNG){: .align-center}<br>

@@ -9,6 +9,11 @@ cover:
 comments: true
 ---
 
+```
+새 블로그!
+```
+
+
 [티스토리](http://devsaka.tistory.com/)에서 블로그 이전합니다.
 
 네이버 블로그 포함, 기존 데이터들은 틈틈이 가져올 예정입니다.
