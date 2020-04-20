@@ -70,7 +70,7 @@ image: https://aplusadvance.com/naver_editor/data/464rg.jpg
 
 ### 3.1 Data construction
 
- ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/KorNLI/figure_1.png){: .align-center}
+ ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/KorNLI/Figure_1.png){: .align-center}
 
 - 한국어 이해를 위한 데이터셋인 KorNLI와 KorSTS를 어떻게 개발했는지에 대한 설명
 
