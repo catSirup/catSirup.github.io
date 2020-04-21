@@ -9,7 +9,7 @@ tags:
   - Machine Learning
   - NLP
   - Data Augmentation
-image: https://lh3.googleusercontent.com/proxy/US5VtfPG8eD2D6gmyxS8CgBJbw9Ym0n2Dv58hjDJH4g9qXMSR0FBbFLtfeWEjFXSvM2W7aY-NtSxSdAyrRiVSWmQ0sjZiglUZc71ByjfMD6JzWDoqE6_OWjKIWLrTEjG9Dw1Y_5FsOO5HEPytPLP1tPezUrAgLOZvQgiWLLpvfK-L2kKRrnmeMZXJjYeKZSBhoBlN7h2o3RCNppM0oK29xuQkdHJTFNnre2KbPOvty8
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROFxuwR3UfrY7zne2RSDfiTfboPGELCb20ZvxAW96HQinTrNI_&usqp=CAU
 ---
 
 ```
