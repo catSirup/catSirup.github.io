@@ -9,11 +9,11 @@ tags:
   - Machine Learning
   - NLP
   - Data Augmentation
-image: https://lh3.googleusercontent.com/proxy/NXh2rq_g4C--tb2s1cDUi8i4m4_bBJPjSo4g38U4XnN0XXLiRrem-CrbCWJwvDpJSscPShTprAs7J6E8WxDY_Fi_MzBa4tSJQYlv7FufSMwxXQdXSPGI3MNwE2m4b8FGTLrucx3JtvN6DOn94L_iYLlvsT2zCuJjIuA7f_oBAyeR121iFcBjriS8zDhqK1wRCKPt5w
+image: https://lh3.googleusercontent.com/proxy/US5VtfPG8eD2D6gmyxS8CgBJbw9Ym0n2Dv58hjDJH4g9qXMSR0FBbFLtfeWEjFXSvM2W7aY-NtSxSdAyrRiVSWmQ0sjZiglUZc71ByjfMD6JzWDoqE6_OWjKIWLrTEjG9Dw1Y_5FsOO5HEPytPLP1tPezUrAgLOZvQgiWLLpvfK-L2kKRrnmeMZXJjYeKZSBhoBlN7h2o3RCNppM0oK29xuQkdHJTFNnre2KbPOvty8
 ---
 
 ```
-어때요 참 쉽죠?
+다중 문장 분신술!
 ```
 
 ## 읽기 전에
