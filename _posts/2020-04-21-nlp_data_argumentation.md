@@ -34,6 +34,8 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROFxuwR3UfrY7zne2
   항상 좋은 내용을 알기 쉽게 풀어서 써주신다. 
   ```
 
+- 본문은 영어로 된 데이터를 증강하는 방법이기 때문에 한국어로 쓸 수 있는 방법은 [여기에](https://catsirup.github.io/ai/2020/04/28/nlp_data_argumentation_code.html) 구현해두었습니다.
+
 ## Abstract
 
 - **EDA**: **E**asy **D**ata **A**ugmentation, 쉽게 데이터 증강하자! => 텍스트 분류 작업의 성능을 말 그대로 부스팅! 해줄 쉬운 데이터 증강
