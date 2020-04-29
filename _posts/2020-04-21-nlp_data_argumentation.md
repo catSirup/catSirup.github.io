@@ -24,6 +24,8 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROFxuwR3UfrY7zne2
 
 항상 데이터가 부족해서 어디서 끌어와야하고 어떻게 하면 더 많은 데이터를 모을 수 있을까에 대한 고민을 했었는데 이러면 이 논문을 안볼 수가 없잖아. 읽어야지 그러면..
 
+본문은 영어로 된 데이터를 증강하는 방법이기 때문에 한국어로 쓸 수 있는 방법은 [여기에](https://catsirup.github.io/ai/2020/04/28/nlp_data_argumentation_code.html) 구현해두었습니다.
+
 ## 참조한 사이트
 
 - [논문](https://arxiv.org/pdf/1901.11196.pdf)
@@ -33,8 +35,6 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROFxuwR3UfrY7zne2
   ```
   항상 좋은 내용을 알기 쉽게 풀어서 써주신다. 
   ```
-
-- 본문은 영어로 된 데이터를 증강하는 방법이기 때문에 한국어로 쓸 수 있는 방법은 [여기에](https://catsirup.github.io/ai/2020/04/28/nlp_data_argumentation_code.html) 구현해두었습니다.
 
 ## Abstract
 
