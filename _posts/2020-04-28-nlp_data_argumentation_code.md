@@ -10,7 +10,7 @@ tags:
   - NLP
   - Data Augmentation
   - Python
-image: https://github.com/jasonwei20/eda_nlp/blob/master/eda_figure.png?raw=true
+image: https://steamcdn-a.akamaihd.net/steam/apps/502130/ss_7cf6c50fcfaa607533d06ca6b2a29080181a8b64.1920x1080.jpg?t=1581833942
 ---
 
 ```
