@@ -10,7 +10,7 @@ tags:
   - NLP
   - 논문
   - Paper
-image: https://steamcdn-a.akamaihd.net/steam/apps/502130/ss_7cf6c50fcfaa607533d06ca6b2a29080181a8b64.1920x1080.jpg?t=1581833942
+image: https://cdn.pixabay.com/photo/2016/10/24/23/11/doors-1767562_960_720.jpg
 ---
 
 ```
