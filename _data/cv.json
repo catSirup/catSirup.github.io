@@ -4,7 +4,6 @@
     "label": "자신감이 자만심으로 바뀌지 않도록 노력하자.",
     "picture": "",
     "email": "taehyung0116@gmail.com",
-    "kakaotalk": "rosewrite",
     "website": "",
     "summary": "",
     "location": {
@@ -33,8 +32,8 @@
       "position": "Machine Learning Engineer",
       "website": "https://trost.co.kr/",
       "startDate": "2019.09.16",
-      "endDate": "",
-      "summary": "정보처리 산업기능요원",
+      "endDate": "2020.06.10",
+      "summary": "정보처리 산업기능요원 소집해제",
       "highlights": [
         "실시간 유저 감성 분석 챗봇 개발",
         "상담 데이터를 통한 유저의 호소문제 분류 및 위험도 스크리닝 모델 개발"
@@ -153,8 +152,7 @@
         "C",
         "C++",
         "C#",
-        "Python",
-        "Swift"
+        "Python"
       ]
     },
     {
@@ -164,6 +162,7 @@
         "Deep learning and Machine Learing",
         "Tensorflow",
         "Keras",
+        "PyTorch",
         "NLP"
       ]
     }     
@@ -176,10 +175,6 @@
     {
       "language": "영어",
       "fluency": "조금 느리지만 비즈니스 사용 가능"
-    }, 
-    {
-      "language": "일본어",
-      "fluency": "간단한 회화 가능"
     }
   ],
   "others": [
