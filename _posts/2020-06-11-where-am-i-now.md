@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "[나, 지금, 어디] 2020년 3월, 나는 지금 어디까지 왔나"
+title:  "[나, 지금, 어디] 2020년 6월, 나는 지금 어디까지 왔나"
 date:   2020-06-11 04:27:43
 author: devsaka
 categories: diary
