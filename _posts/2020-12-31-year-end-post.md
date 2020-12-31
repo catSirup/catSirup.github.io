@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "[2020년 회고록] 쓸까말까 고민하다가 마지막 날에 급하게 작성하는 회고록 2"
-date:   2018-12-31 23:35:30
+date:   2020-12-31 23:35:30
 author: devsaka
 categories:
 tags:
